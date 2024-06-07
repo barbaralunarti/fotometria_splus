@@ -38,8 +38,7 @@ df
 
 # %%
 
-# conn = splusdata.connect('barbaralunarti','Bah@wwe12')
-conn = splusdata.connect('hektor.monteiro','oiii5007')
+conn = splusdata.connect('username','password')
 
 # %%
 
@@ -163,10 +162,6 @@ for i,obj_i in enumerate(list_to_convert):
 
 # %%
 
-conn = splusdata.connect('hektor.monteiro','oiii5007')
-
-# %%
-
 # ISO aperture for all the filters
 
 obj_index = 138
@@ -248,10 +243,6 @@ gc.show_ellipses(select_table['RA'][index_select], select_table['DEC'][index_sel
 
 # %%
 
-conn = splusdata.connect('hektor.monteiro','oiii5007')
-
-# %%
-
 # AUTO aperture (Kron radius) for all the filters
 
 obj_index = 138
@@ -326,10 +317,6 @@ gc.show_ellipses(select_table['RA'][index_select], select_table['DEC'][index_sel
                 height=(p * b), # minor axis
                 angle=-Angle(select_table['THETA'][index_select], unit=u.degree),
                 edgecolor='blue')
-
-# %%
-
-conn = splusdata.connect('hektor.monteiro','oiii5007')
 
 # %%
 
